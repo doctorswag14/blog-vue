@@ -6,18 +6,18 @@
     <!-- Section: Social media -->
     <section class="mb-4">
       <!-- Facebook -->
-      <router-link class="btn btn-outline-light btn-floating m-1" to="HomeView"
+      <router-link class="btn btn-outline-light btn-floating m-1" :to="{name: 'HomeView'}"
         >Home</router-link>
 
       <!-- Twitter -->
-      <router-link class="btn btn-outline-light btn-floating m-1" to="BlogView">Blog</router-link>
+      <router-link class="btn btn-outline-light btn-floating m-1" :to="{name: 'BlogView'}">Blog</router-link>
 
       
-      <router-link class="btn btn-outline-light btn-floating m-1" to="ProjectView" 
+      <router-link class="btn btn-outline-light btn-floating m-1" :to="{name: 'ProjectView'}" 
         >Projects</router-link>
 
       <!-- Instagram -->
-      <router-link class="btn btn-outline-light btn-floating m-1" to="ContactView" 
+      <router-link class="btn btn-outline-light btn-floating m-1" :to="{name: 'ContactView'}" 
         >Contact</router-link>
 
       <!-- Linkedin -->
