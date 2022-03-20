@@ -6,19 +6,18 @@
     <!-- Section: Social media -->
     <section class="mb-4">
       <!-- Facebook -->
-      <router-link class="btn btn-outline-light btn-floating m-1" to="HomeView" role="button"
+      <router-link class="btn btn-outline-light btn-floating m-1" to="HomeView"
         >Home</router-link>
 
       <!-- Twitter -->
-      <router-link class="btn btn-outline-light btn-floating m-1" to="BlogView" role="button"
-        >Blog</router-link>
+      <router-link class="btn btn-outline-light btn-floating m-1" to="BlogView">Blog</router-link>
 
-      <!-- Google -->
-      <router-link class="btn btn-outline-light btn-floating m-1" to="ProjectView" role="button"
+      
+      <router-link class="btn btn-outline-light btn-floating m-1" to="ProjectView" 
         >Projects</router-link>
 
       <!-- Instagram -->
-      <router-link class="btn btn-outline-light btn-floating m-1" to="ContactView" role="button"
+      <router-link class="btn btn-outline-light btn-floating m-1" to="ContactView" 
         >Contact</router-link>
 
       <!-- Linkedin -->
