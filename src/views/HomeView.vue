@@ -4,24 +4,23 @@
     <body>
     <div class="jumbotron p-4 p-md-5 text-white" :style="{backgroundImage:'url(https://images.pexels.com/photos/5366526/pexels-photo-5366526.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)'}">
     <div class="col-md-6 px-0">
-      <h1 class="display-4 font-italic">Welcome to the future</h1>
-      <p class="lead my-3">This is where you can come to track my progress on projects thats that I am working on to help change the future and make the world a better place.</p>
-      <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+      <h1 class="display-4 font-italic">Hello I am Blake Thomas</h1>
+      <h2 class="display-4 font-italic">Web Developer</h2>
     </div>
   </div>
   <!-- The three columns of the page -->
   <div class="row" style="color: white;">
     <div class="col-lg-4">
       <img class = "profile" src = "../assets/images/internet.jpg" height="auto" width="50%" style="padding-top: 50px;">
-      <h2>Upcoming Features</h2>
-      <P> If you want to see new features that are coming click belwo to find out</p>
+      <h2>Personal Projects</h2>
+      <p> Find out what projects I am currently working on right now</p>
       <p><a class="btn btn-secondary" href="html/ideapost.html" role="button">View details &raquo;</a></p>
     </div>
     <div class="col-lg-4">
       <img class = "profile" src = "../assets/images/monitor.jpg" height="auto" width="50%" style="padding-top: 50px;">
-      <h2>Other Projects</h2>
-      <p>I have many other projects going on if you are interested click to view more</p>
-      <p><a class="btn btn-secondary" href="ProjectView" role="button">View details &raquo;</a></p>
+      <h2>Blog</h2>
+      <p>Check out the blog where I discuss everything from personal projects to new thing I am learning</p>
+      <p><router-link class="btn btn-secondary" to="BlogView">Read More &raquo;</router-link></p>
     </div>
     <div class="col-lg-4">
       <img class = "profile" src = "../assets/images/message.jpg" height="auto" width="50%" style="padding-top: 50px;">
