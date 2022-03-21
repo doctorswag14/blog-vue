@@ -27,7 +27,7 @@
         <div class="col p-4 d-flex flex-column position-static">
           <h3 style="color: white;" class="mb-0">Future Projects</h3>
           <p style="color: white" class="mb-auto">Talks about future project ideas and discuesses how to submit project ideas</p>
-          <a style="color: white;" href="futurepost.html" class="stretched-link">Continue reading</a>
+          <router-link style="color: white;" to="ProjectView" class="stretched-link">Continue reading</router-link>
         </div>
         <div class="col-auto d-none d-lg-block">
         </div>
@@ -45,32 +45,16 @@
       </h3>
 
       <div class="blog-post">
-        <h2 class="blog-post-title" style="color:white">Problems with the page transitions....</h2>
-        <p style = "color:white" class="blog-post-meta">October 1, 2020 by <a href="about.html">Blake Thomas</a></p>
+        <h2 class="blog-post-title" style="color:white">New Look</h2>
+        <p style = "color:white" class="blog-post-meta">October 1, 2020 by <router-link to="AboutView">Blake Thomas</router-link></p>
 
         <p class = "border-bottom">
-          This whole site has been a serise of differnt problems that keep up coming at as a try to intergrate all the diferent things.
-          I am trying to make things more stream line in order to make things more clean and just trying to get all the bugs fixed.
-          I am using this to show off my skills this is just one of the many projects that I have going on. I don't want to get deep into my other ideas
-          until I have this site all up and running. The main problem I am haivng right now is getting the page transitions working the way that it needs to be working.
-          My idea on how to fix this would be to remove the navigation bar from all of the page except for the index page that way it will remain static and it will
-          bring the content in and out with only having the nav bar on the home page. Will run a few tests to see if this will fix my issue. Will post back if this fixes are not. 
-          Will make another post soon. And if we want to know anything feel free to contact me from the contact page I look forward to hearing from you.
-          Talk to everyone soon.
+          I have started giving this site a new look. I used to be built using static HMTL/CSS but now I am starting to reuild it using 
+          the Vue.js framework. This a really good thing becxause now the site works really well and mroe stream line when viewing it on mobile so currently I don't need tp try and convert this site to a mobile site as well. At least not unitl I add more features to the site as a whole. If there is anything you would like to see please feel free to reach out ot me. This is going to help add alot more features to the site. My next thing I am going to do it try and ad a more live feeling posting system other then just it being 
+          all static that will also mean I need to add a login system in order to control who can an can't post all to allow people to post using there own username and password. That is my next step to come to the site and will have that posted as soon as possible.
+
         </p>
     
-        <div class="blog-post">
-          <h2 class="blog-post-title" style="color:white">Ideas for the future..</h2>
-          <p style = "color:white" class="blog-post-meta">October 1, 2020 by <a href="about.html">Blake Thomas</a></p>
-  
-          <p>
-            I have many things that I want to do for the future. One of them is that I want to build an AI that will help me with my every day to day life.
-            It is kind of like Siri or Alexa but I want to be able to make it do everything i want to do to fit my needs. I will take a lot research and will have to go through many different versions before I get a final build.
-            I even want to maybe possibly build a whole thing for the whole thing to live in so it can go beyond just my computer but that will happen with time. I will be updating this with other ideas that I come up with as I come up with them.
-            Talk to you all later Bye.
-          </p>
-    </div>
-      </div>
 
   </div>
   </div>
