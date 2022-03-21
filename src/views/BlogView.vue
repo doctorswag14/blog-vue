@@ -46,7 +46,7 @@
 
       <div class="blog-post">
         <h2 class="blog-post-title" style="color:white">New Look</h2>
-        <p style = "color:white" class="blog-post-meta">October 1, 2020 by <router-link to="AboutView">Blake Thomas</router-link></p>
+        <p style = "color:white" class="blog-post-meta">March 21, 2022 by <router-link to="AboutView">Blake Thomas</router-link></p>
 
         <p class = "border-bottom">
           I have started giving this site a new look. I used to be built using static HMTL/CSS but now I am starting to reuild it using 
