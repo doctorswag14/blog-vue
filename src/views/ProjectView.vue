@@ -43,11 +43,20 @@
           Once the app project begins I will create a proejct page with the project plan
         </p>
       </div>
+      
       <div class="col-md-5">
         <img src = "../assets/images/app.jpg" height="300px" width="500px">
       </div>
     </div>
 
+    <div class="row featurette" style="color: white;">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Misc Build for Resume</h2>
+        <p class="lead">Here you will find random completed projects. With demos and Github links.
+        </p>
+      </div>
+      
+    </div>
     <hr class="featurette-divider">
 
   

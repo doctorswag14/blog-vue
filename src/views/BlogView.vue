@@ -38,11 +38,12 @@
 
 
 <!--This is where the blog posts start for the page-->
-  <div class="row">
+<center>
     <div class="col-md-8 blog-main">
       <h3 style = "color: white; " class="pb-4 mb-4 font-italic border-bottom">
         Blog Posts
       </h3>
+    </div>
 
       <div class="blog-post">
         <h2 class="blog-post-title" style="color:white">New Look</h2>
@@ -54,11 +55,27 @@
           all static that will also mean I need to add a login system in order to control who can an can't post all to allow people to post using there own username and password. That is my next step to come to the site and will have that posted as soon as possible.
 
         </p>
-    
+
+        <div class="blog-post">
+        <h2 class="blog-post-title" style="color:white">New things coming soon</h2>
+        <p style = "color:white" class="blog-post-meta">April 29, 2022 by <router-link to="AboutView">Blake Thomas</router-link></p>
+
+        <p class = "border-bottom">
+          Hello everyone this is just a little bit of an update I am wokring on getting some working demos together for just some small things that I have been working on.
+          Along with adding demos I will be including all the source code of everything that I have been working on. This will be something that gets updated frequently as I get more things built and ready to show off. So stay tune there will be
+          new things coming soon. Hoping to make some big updates to the site as well those are in the planning stages tov think of other things to help improve it. So stay on the look out for everything coming hope to make another update soon. Talk to you later.
+
+        </p>
+        </div>
 
   </div>
-  </div>
+</center>
+    
+
+  
+  
     </body>
+  
   </div>
 
 </template>

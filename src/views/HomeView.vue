@@ -11,28 +11,30 @@
   <!-- The three columns of the page -->
   <div class="row" style="color: white;">
     <div class="col-lg-4">
-      <img class = "profile" src = "../assets/images/internet.jpg" height="auto" width="50%" style="padding-top: 50px;">
-      <h2>Personal Projects</h2>
-      <p> Find out what projects I am currently working on right now</p>
-      <p><a class="btn btn-secondary" href="html/ideapost.html" role="button">View details &raquo;</a></p>
+      <img class = "profile center" src = "../assets/images/internet.jpg" height="auto" width="50%" style="padding-top: 50px;">
+      <h2 class="center">Personal Projects</h2>
+      <p class="center"> Find out what projects I am currently working on right now</p>
+      <p class="center"><a class="btn btn-secondary" href="html/ideapost.html" role="button">View details &raquo;</a></p>
     </div>
     <div class="col-lg-4">
-      <img class = "profile" src = "../assets/images/monitor.jpg" height="auto" width="50%" style="padding-top: 50px;">
-      <h2>Blog</h2>
-      <p>Check out the blog where I discuss everything from personal projects to new thing I am learning</p>
-      <p><router-link class="btn btn-secondary" to="BlogView">Read More &raquo;</router-link></p>
+      <img class = "profile center" src = "../assets/images/monitor.jpg" height="auto" width="50%" style="padding-top: 50px;">
+      <h2 class="center">Blog</h2>
+      <p class="center">Check out the blog where I discuss everything from personal projects to new thing I am learning</p>
+      <p class="center"><router-link class="btn btn-secondary" to="BlogView">Read More &raquo;</router-link></p>
     </div>
     <div class="col-lg-4">
-      <img class = "profile" src = "../assets/images/message.jpg" height="auto" width="50%" style="padding-top: 50px;">
-      <h2>Contact Me</h2>
-      <p> If you want to contact me about a project or about anything feel free to reach out click below to contact me.</p>
-      <p><a class="btn btn-secondary" href="ContactView" role="button">View details &raquo;</a></p>
+      <img class = "profile center" src = "../assets/images/message.jpg" height="auto" width="50%" style="padding-top: 50px;">
+      <h2 class="center">Contact Me</h2>
+      <p class="center"> If you want to contact me about a project or about anything feel free to reach out click below to contact me.</p>
+      <p class="center"><a class="btn btn-secondary" href="ContactView" role="button">View details &raquo;</a></p>
     </div>
+    
     
   </div>
     </body>
   </div>
 </div>
+
 </template>
 
 <script>
@@ -84,6 +86,13 @@ html,
 body {
   height: 100%;
   background-color: #333;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
       
   </style>

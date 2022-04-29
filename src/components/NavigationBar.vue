@@ -10,6 +10,7 @@
         <router-link class = "link" :to="{name: 'HomeView'}">Home</router-link>
         <router-link class = "link" to="BlogView">Blogs</router-link>
         <router-link class = "link" to="ProjectView">Project</router-link>
+        <router-link class = "link" to="DemoView">Demo</router-link>
         <router-link class = "link" to="ContactView">Contact</router-link>
         <router-link class = "link" to="AboutView">About</router-link>
         </ul>
@@ -21,6 +22,7 @@
         <router-link class = "link" :to="{name: 'HomeView'}">Home</router-link>
         <router-link class = "link" to="BlogView">Blogs</router-link>
         <router-link class = "link" to="ProjectView">Projects</router-link>
+        <router-link class = "link" to="DemoView">Demos</router-link>
         <router-link class = "link" to="ContactView">Contact</router-link>
         <router-link class = "link" to="AboutView">About</router-link>
         </ul>

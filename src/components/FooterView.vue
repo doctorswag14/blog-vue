@@ -16,9 +16,15 @@
       <router-link class="btn btn-outline-light btn-floating m-1" :to="{name: 'ProjectView'}" 
         >Projects</router-link>
 
+        <router-link class="btn btn-outline-light btn-floating m-1" :to="{name: 'DemoView'}" 
+        >Demo</router-link>
+
       <!-- Instagram -->
       <router-link class="btn btn-outline-light btn-floating m-1" :to="{name: 'ContactView'}" 
         >Contact</router-link>
+
+         <router-link class="btn btn-outline-light btn-floating m-1" :to="{name: 'AboutView'}" 
+        >About</router-link>
 
       <!-- Linkedin -->
     </section>

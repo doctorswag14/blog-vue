@@ -6,6 +6,7 @@ import ProjectView from '../views/ProjectView.vue'
 import ContactView from '../views/ContactView.vue'
 import CreatePost from "../views//CreatePost.vue"
 import AboutView from "../views/AboutView.vue"
+import DemoView from "../views/DemoView.vue"
 
 Vue.use(VueRouter)
 
@@ -70,6 +71,16 @@ const routes = [
 
   },
 },
+{
+  path:"/DemoView",
+  name: "Demo",
+  component: DemoView,
+  meta:{
+    title: "Demo"
+
+  },
+},
+
 ];
 
 const router = new VueRouter({
